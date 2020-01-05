@@ -33,19 +33,21 @@
     <content><![CDATA[<h1 id="python-终端基础"><a href="#python-终端基础" class="headerlink" title="python 终端基础"></a>python 终端基础</h1><a id="more"></a>
 <p>mac环境下打开terminal：</p>
 <h2 id="1-利用python终端对话框"><a href="#1-利用python终端对话框" class="headerlink" title="1.利用python终端对话框"></a>1.利用python终端对话框</h2><ul>
-<li><p>进入python对话框</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ python</span><br></pre></td></tr></table></figure></li>
-<li><p>退出python对话框</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">exit</span>()</span><br></pre></td></tr></table></figure>
-<h2 id="2-对话框参考帮助"><a href="#2-对话框参考帮助" class="headerlink" title="2. 对话框参考帮助"></a>2. 对话框参考帮助</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">help</span>(<span class="string">'if'</span>)</span><br></pre></td></tr></table></figure>
-<h2 id="2-使用文件执行程序"><a href="#2-使用文件执行程序" class="headerlink" title="2.使用文件执行程序"></a>2.使用文件执行程序</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ touch hello.py</span><br></pre></td></tr></table></figure>
+<li>进入python对话框<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ python</span><br></pre></td></tr></table></figure></li>
+<li>退出python对话框<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">exit</span>()</span><br></pre></td></tr></table></figure>
+
 </li>
-<li><p>hello.py里编辑</p>
+</ul>
+<h2 id="2-对话框参考帮助"><a href="#2-对话框参考帮助" class="headerlink" title="2. 对话框参考帮助"></a>2. 对话框参考帮助</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">help</span>(<span class="string">'if'</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="3-使用文件执行程序"><a href="#3-使用文件执行程序" class="headerlink" title="3.使用文件执行程序"></a>3.使用文件执行程序</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ touch hello.py</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>3.1 hello.py文件里编辑</p>
 <blockquote>
 <p>print (“Hello, Python”)</p>
 </blockquote>
 </li>
-<li><p>执行下面的语句，执行保存在文件里的语句</p>
+<li><p>3.2 执行下面的语句，执行保存在文件里的语句</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ python hello.py</span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
