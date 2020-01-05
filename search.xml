@@ -28,14 +28,29 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2019/12/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>文章摘要</p>
-<a id="more"></a>
-<p>余下是全文</p>
+    <title>1.python基本内容</title>
+    <url>/2019/12/24/1.python%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9/</url>
+    <content><![CDATA[<h1 id="python-终端基础"><a href="#python-终端基础" class="headerlink" title="python 终端基础"></a>python 终端基础</h1><a id="more"></a>
+<p>mac环境下打开terminal：</p>
+<h2 id="1-利用python终端对话框"><a href="#1-利用python终端对话框" class="headerlink" title="1.利用python终端对话框"></a>1.利用python终端对话框</h2><ul>
+<li><p>进入python对话框</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ python</span><br></pre></td></tr></table></figure></li>
+<li><p>退出python对话框</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">exit</span>()</span><br></pre></td></tr></table></figure>
+<h2 id="2-对话框参考帮助"><a href="#2-对话框参考帮助" class="headerlink" title="2. 对话框参考帮助"></a>2. 对话框参考帮助</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">help</span>(<span class="string">'if'</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="2-使用文件执行程序"><a href="#2-使用文件执行程序" class="headerlink" title="2.使用文件执行程序"></a>2.使用文件执行程序</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ touch hello.py</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>hello.py里编辑</p>
+<blockquote>
+<p>print (“Hello, Python”)</p>
+</blockquote>
+</li>
+<li><p>执行下面的语句，执行保存在文件里的语句</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ python hello.py</span><br></pre></td></tr></table></figure></li>
+</ul>
 ]]></content>
       <tags>
-        <tag>javascript</tag>
+        <tag>python</tag>
       </tags>
   </entry>
 </search>
